@@ -72,7 +72,7 @@
                     <formula category="VARIABLE">
                       <additionalChildren/>
                       <type>STRING</type>
-                      <value>ababuy</value>
+                      <value></value>
                     </formula>
                   </formulaList>
                   <userVariable type="UserVariable" serialization="custom">
@@ -92,7 +92,7 @@
                     <formula category="VARIABLE">
                       <additionalChildren/>
                       <type>STRING</type>
-                      <value></value>
+                      <value>xz</value>
                     </formula>
                   </formulaList>
                   <userVariable type="UserVariable" serialization="custom">
