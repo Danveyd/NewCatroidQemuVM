@@ -48,45 +48,6 @@
           <scriptList>
             <script type="StartScript" posX="0.0" posY="0.0">
               <brickList>
-                <brick type="ShowToastBlock">
-                  <brickId>557cbc0e-d60c-45da-abf9-cf06fb342bc1</brickId>
-                  <commentedOut>false</commentedOut>
-                  <formulaList>
-                    <formula category="TOAST">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value>ababuy</value>
-                    </formula>
-                  </formulaList>
-                </brick>
-                <brick type="WaitBrick">
-                  <brickId>55d6a8cb-eead-4629-a679-29b4bd71ea2f</brickId>
-                  <commentedOut>false</commentedOut>
-                  <formulaList>
-                    <formula category="TIME_TO_WAIT_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1.0</value>
-                    </formula>
-                  </formulaList>
-                </brick>
-                <brick type="ShowToastBlock">
-                  <brickId>ce51890e-3fca-4a7f-a12e-c418ce3fd3df</brickId>
-                  <commentedOut>false</commentedOut>
-                  <formulaList>
-                    <formula category="TOAST">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value>Hello World</value>
-                    </formula>
-                  </formulaList>
-                </brick>
-              </brickList>
-              <commentedOut>false</commentedOut>
-              <scriptId>24595acd-e64c-4cfd-9fc3-a99ef7691f95</scriptId>
-            </script>
-            <script type="StartScript" posX="0.0" posY="0.0">
-              <brickList>
                 <brick type="SetVariableBrick">
                   <brickId>f12d2d96-4209-417b-8640-ab004e1d626f</brickId>
                   <commentedOut>false</commentedOut>
@@ -207,12 +168,12 @@
                 <brick type="HideTextBrick">
                   <brickId>51b1b070-5de6-4435-90d9-4f34b18a2e09</brickId>
                   <commentedOut>false</commentedOut>
-                  <userVariable reference="../../../../script[2]/brickList/brick[2]/userVariable"/>
+                  <userVariable reference="../../../../script/brickList/brick[2]/userVariable"/>
                 </brick>
                 <brick type="HideTextBrick">
                   <brickId>df202726-7619-43a3-a430-c63bad411eed</brickId>
                   <commentedOut>false</commentedOut>
-                  <userVariable reference="../../../../script[2]/brickList/brick/userVariable"/>
+                  <userVariable reference="../../../../script/brickList/brick/userVariable"/>
                 </brick>
               </brickList>
               <commentedOut>false</commentedOut>
@@ -1336,7 +1297,7 @@
                           <value>file</value>
                         </formula>
                       </formulaList>
-                      <userVariable reference="../../../../../../../../object/scriptList/script[2]/brickList/brick/userVariable"/>
+                      <userVariable reference="../../../../../../../../object/scriptList/script/brickList/brick/userVariable"/>
                     </brick>
                   </elseBranchBricks>
                   <ifBranchBricks>
@@ -1391,7 +1352,7 @@
                               <value>file</value>
                             </formula>
                           </formulaList>
-                          <userVariable reference="../../../../../../../../../../object/scriptList/script[2]/brickList/brick/userVariable"/>
+                          <userVariable reference="../../../../../../../../../../object/scriptList/script/brickList/brick/userVariable"/>
                         </brick>
                       </ifBranchBricks>
                     </brick>
@@ -1573,7 +1534,7 @@
                       <value>name</value>
                     </formula>
                   </formulaList>
-                  <userVariable reference="../../../../../../object/scriptList/script[2]/brickList/brick/userVariable"/>
+                  <userVariable reference="../../../../../../object/scriptList/script/brickList/brick/userVariable"/>
                 </brick>
               </brickList>
               <commentedOut>false</commentedOut>
@@ -1700,7 +1661,7 @@
                       <value>file</value>
                     </formula>
                   </formulaList>
-                  <userVariable reference="../../../../../../object/scriptList/script[2]/brickList/brick[2]/userVariable"/>
+                  <userVariable reference="../../../../../../object/scriptList/script/brickList/brick[2]/userVariable"/>
                 </brick>
               </brickList>
               <commentedOut>false</commentedOut>
@@ -3053,10 +3014,10 @@
     </scene>
   </scenes>
   <programVariableList>
-    <userVariable reference="../../scenes/scene/objectList/object/scriptList/script[2]/brickList/brick/userVariable"/>
+    <userVariable reference="../../scenes/scene/objectList/object/scriptList/script/brickList/brick/userVariable"/>
     <userVariable reference="../../scenes/scene/objectList/object[2]/scriptList/script/brickList/brick/userVariable"/>
     <userVariable reference="../../scenes/scene/objectList/object[3]/scriptList/script/brickList/brick/userVariable"/>
-    <userVariable reference="../../scenes/scene/objectList/object/scriptList/script[2]/brickList/brick[2]/userVariable"/>
+    <userVariable reference="../../scenes/scene/objectList/object/scriptList/script/brickList/brick[2]/userVariable"/>
     <userVariable reference="../../scenes/scene[2]/objectList/object/scriptList/script[2]/brickList/brick/userVariable"/>
     <userVariable reference="../../scenes/scene[2]/objectList/object/scriptList/script[2]/brickList/brick[2]/userVariable"/>
   </programVariableList>
