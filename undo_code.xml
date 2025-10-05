@@ -66,33 +66,13 @@
             <script type="StartScript" posX="0.0" posY="0.0">
               <brickList>
                 <brick type="SetVariableBrick">
-                  <brickId>f12d2d96-4209-417b-8640-ab004e1d626f</brickId>
-                  <commentedOut>false</commentedOut>
-                  <formulaList>
-                    <formula category="VARIABLE">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value></value>
-                    </formula>
-                  </formulaList>
-                  <userVariable type="UserVariable" serialization="custom">
-                    <userVariable>
-                      <default>
-                        <initialIndex>0</initialIndex>
-                        <deviceValueKey>4abcb330-de96-4cb4-9965-8499697dcf65</deviceValueKey>
-                        <name>HARD_DRIVE</name>
-                      </default>
-                    </userVariable>
-                  </userVariable>
-                </brick>
-                <brick type="SetVariableBrick">
                   <brickId>cccc49fb-a714-4415-8859-2c067e34e43b</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
                     <formula category="VARIABLE">
                       <additionalChildren/>
                       <type>STRING</type>
-                      <value></value>
+                      <value>xz</value>
                     </formula>
                   </formulaList>
                   <userVariable type="UserVariable" serialization="custom">
@@ -101,6 +81,26 @@
                         <initialIndex>3</initialIndex>
                         <deviceValueKey>8250dd82-88b4-4447-8293-b29549ec345b</deviceValueKey>
                         <name>REMOVABLE_DISK</name>
+                      </default>
+                    </userVariable>
+                  </userVariable>
+                </brick>
+                <brick type="SetVariableBrick">
+                  <brickId>f12d2d96-4209-417b-8640-ab004e1d626f</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="VARIABLE">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>ababuy</value>
+                    </formula>
+                  </formulaList>
+                  <userVariable type="UserVariable" serialization="custom">
+                    <userVariable>
+                      <default>
+                        <initialIndex>0</initialIndex>
+                        <deviceValueKey>4abcb330-de96-4cb4-9965-8499697dcf65</deviceValueKey>
+                        <name>HARD_DRIVE</name>
                       </default>
                     </userVariable>
                   </userVariable>
@@ -135,7 +135,7 @@
                       <value>MINUS</value>
                     </formula>
                   </formulaList>
-                  <userVariable reference="../../brick/userVariable"/>
+                  <userVariable reference="../../brick[2]/userVariable"/>
                   <alignmentSelection>0</alignmentSelection>
                 </brick>
                 <brick type="ShowTextColorSizeAlignmentBrick">
@@ -173,7 +173,7 @@
                       <value>MINUS</value>
                     </formula>
                   </formulaList>
-                  <userVariable reference="../../brick[2]/userVariable"/>
+                  <userVariable reference="../../brick/userVariable"/>
                   <alignmentSelection>0</alignmentSelection>
                 </brick>
               </brickList>
@@ -185,12 +185,12 @@
                 <brick type="HideTextBrick">
                   <brickId>51b1b070-5de6-4435-90d9-4f34b18a2e09</brickId>
                   <commentedOut>false</commentedOut>
-                  <userVariable reference="../../../../script[2]/brickList/brick[2]/userVariable"/>
+                  <userVariable reference="../../../../script[2]/brickList/brick/userVariable"/>
                 </brick>
                 <brick type="HideTextBrick">
                   <brickId>df202726-7619-43a3-a430-c63bad411eed</brickId>
                   <commentedOut>false</commentedOut>
-                  <userVariable reference="../../../../script[2]/brickList/brick/userVariable"/>
+                  <userVariable reference="../../../../script[2]/brickList/brick[2]/userVariable"/>
                 </brick>
               </brickList>
               <commentedOut>false</commentedOut>
@@ -1314,7 +1314,7 @@
                           <value>file</value>
                         </formula>
                       </formulaList>
-                      <userVariable reference="../../../../../../../../object/scriptList/script[2]/brickList/brick/userVariable"/>
+                      <userVariable reference="../../../../../../../../object/scriptList/script[2]/brickList/brick[2]/userVariable"/>
                     </brick>
                   </elseBranchBricks>
                   <ifBranchBricks>
@@ -1369,7 +1369,7 @@
                               <value>file</value>
                             </formula>
                           </formulaList>
-                          <userVariable reference="../../../../../../../../../../object/scriptList/script[2]/brickList/brick/userVariable"/>
+                          <userVariable reference="../../../../../../../../../../object/scriptList/script[2]/brickList/brick[2]/userVariable"/>
                         </brick>
                       </ifBranchBricks>
                     </brick>
@@ -1551,7 +1551,7 @@
                       <value>name</value>
                     </formula>
                   </formulaList>
-                  <userVariable reference="../../../../../../object/scriptList/script[2]/brickList/brick/userVariable"/>
+                  <userVariable reference="../../../../../../object/scriptList/script[2]/brickList/brick[2]/userVariable"/>
                 </brick>
               </brickList>
               <commentedOut>false</commentedOut>
@@ -1678,7 +1678,7 @@
                       <value>file</value>
                     </formula>
                   </formulaList>
-                  <userVariable reference="../../../../../../object/scriptList/script[2]/brickList/brick[2]/userVariable"/>
+                  <userVariable reference="../../../../../../object/scriptList/script[2]/brickList/brick/userVariable"/>
                 </brick>
               </brickList>
               <commentedOut>false</commentedOut>
@@ -3031,10 +3031,10 @@
     </scene>
   </scenes>
   <programVariableList>
-    <userVariable reference="../../scenes/scene/objectList/object/scriptList/script[2]/brickList/brick/userVariable"/>
+    <userVariable reference="../../scenes/scene/objectList/object/scriptList/script[2]/brickList/brick[2]/userVariable"/>
     <userVariable reference="../../scenes/scene/objectList/object[2]/scriptList/script/brickList/brick/userVariable"/>
     <userVariable reference="../../scenes/scene/objectList/object[3]/scriptList/script/brickList/brick/userVariable"/>
-    <userVariable reference="../../scenes/scene/objectList/object/scriptList/script[2]/brickList/brick[2]/userVariable"/>
+    <userVariable reference="../../scenes/scene/objectList/object/scriptList/script[2]/brickList/brick/userVariable"/>
     <userVariable reference="../../scenes/scene[2]/objectList/object/scriptList/script[2]/brickList/brick/userVariable"/>
     <userVariable reference="../../scenes/scene[2]/objectList/object/scriptList/script[2]/brickList/brick[2]/userVariable"/>
   </programVariableList>
