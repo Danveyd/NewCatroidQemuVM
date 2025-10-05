@@ -92,20 +92,10 @@
                   <brickId>ac95fcbe-1f13-4539-88c0-b90aac1f489a</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="Y_POSITION">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>185</value>
-                    </formula>
                     <formula category="COLOR">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>#FFFFFF</value>
-                    </formula>
-                    <formula category="SIZE">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>100</value>
                     </formula>
                     <formula category="X_POSITION">
                       <additionalChildren/>
@@ -116,6 +106,16 @@
                       </rightChild>
                       <type>OPERATOR</type>
                       <value>MINUS</value>
+                    </formula>
+                    <formula category="SIZE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>100</value>
+                    </formula>
+                    <formula category="Y_POSITION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>185</value>
                     </formula>
                   </formulaList>
                   <userVariable reference="../../brick/userVariable"/>
@@ -125,25 +125,10 @@
                   <brickId>ec213418-6034-4b69-bfb4-3a326a07b84b</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="Y_POSITION">
-                      <additionalChildren/>
-                      <rightChild>
-                        <additionalChildren/>
-                        <type>NUMBER</type>
-                        <value>82</value>
-                      </rightChild>
-                      <type>OPERATOR</type>
-                      <value>MINUS</value>
-                    </formula>
                     <formula category="COLOR">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>#FFFFFF</value>
-                    </formula>
-                    <formula category="SIZE">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>100</value>
                     </formula>
                     <formula category="X_POSITION">
                       <additionalChildren/>
@@ -151,6 +136,21 @@
                         <additionalChildren/>
                         <type>NUMBER</type>
                         <value>723</value>
+                      </rightChild>
+                      <type>OPERATOR</type>
+                      <value>MINUS</value>
+                    </formula>
+                    <formula category="SIZE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>100</value>
+                    </formula>
+                    <formula category="Y_POSITION">
+                      <additionalChildren/>
+                      <rightChild>
+                        <additionalChildren/>
+                        <type>NUMBER</type>
+                        <value>82</value>
                       </rightChild>
                       <type>OPERATOR</type>
                       <value>MINUS</value>
@@ -196,156 +196,6 @@
               </brickList>
               <commentedOut>false</commentedOut>
               <scriptId>a746d4ad-a183-4db2-b76c-10683007afac</scriptId>
-            </script>
-            <script type="StartScript" posX="0.0" posY="0.0">
-              <brickList>
-                <brick type="SetVariableBrick">
-                  <brickId>f12d2d96-4209-417b-8640-ab004e1d626f</brickId>
-                  <commentedOut>false</commentedOut>
-                  <formulaList>
-                    <formula category="VARIABLE">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value></value>
-                    </formula>
-                  </formulaList>
-                  <userVariable type="UserVariable" serialization="custom">
-                    <userVariable>
-                      <default>
-                        <initialIndex>0</initialIndex>
-                        <deviceValueKey>4abcb330-de96-4cb4-9965-8499697dcf65</deviceValueKey>
-                        <name>HARD_DRIVE</name>
-                      </default>
-                    </userVariable>
-                  </userVariable>
-                </brick>
-                <brick type="SetVariableBrick">
-                  <brickId>cccc49fb-a714-4415-8859-2c067e34e43b</brickId>
-                  <commentedOut>false</commentedOut>
-                  <formulaList>
-                    <formula category="VARIABLE">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value></value>
-                    </formula>
-                  </formulaList>
-                  <userVariable type="UserVariable" serialization="custom">
-                    <userVariable>
-                      <default>
-                        <initialIndex>3</initialIndex>
-                        <deviceValueKey>8250dd82-88b4-4447-8293-b29549ec345b</deviceValueKey>
-                        <name>REMOVABLE_DISK</name>
-                      </default>
-                    </userVariable>
-                  </userVariable>
-                </brick>
-                <brick type="ShowTextColorSizeAlignmentBrick">
-                  <brickId>ac95fcbe-1f13-4539-88c0-b90aac1f489a</brickId>
-                  <commentedOut>false</commentedOut>
-                  <formulaList>
-                    <formula category="Y_POSITION">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>185</value>
-                    </formula>
-                    <formula category="COLOR">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value>#FFFFFF</value>
-                    </formula>
-                    <formula category="X_POSITION">
-                      <additionalChildren/>
-                      <rightChild>
-                        <additionalChildren/>
-                        <type>NUMBER</type>
-                        <value>723</value>
-                      </rightChild>
-                      <type>OPERATOR</type>
-                      <value>MINUS</value>
-                    </formula>
-                    <formula category="SIZE">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>100</value>
-                    </formula>
-                  </formulaList>
-                  <userVariable reference="../../brick/userVariable"/>
-                  <alignmentSelection>0</alignmentSelection>
-                </brick>
-                <brick type="ShowTextColorSizeAlignmentBrick">
-                  <brickId>ec213418-6034-4b69-bfb4-3a326a07b84b</brickId>
-                  <commentedOut>false</commentedOut>
-                  <formulaList>
-                    <formula category="Y_POSITION">
-                      <additionalChildren/>
-                      <rightChild>
-                        <additionalChildren/>
-                        <type>NUMBER</type>
-                        <value>82</value>
-                      </rightChild>
-                      <type>OPERATOR</type>
-                      <value>MINUS</value>
-                    </formula>
-                    <formula category="COLOR">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value>#FFFFFF</value>
-                    </formula>
-                    <formula category="X_POSITION">
-                      <additionalChildren/>
-                      <rightChild>
-                        <additionalChildren/>
-                        <type>NUMBER</type>
-                        <value>723</value>
-                      </rightChild>
-                      <type>OPERATOR</type>
-                      <value>MINUS</value>
-                    </formula>
-                    <formula category="SIZE">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>100</value>
-                    </formula>
-                  </formulaList>
-                  <userVariable reference="../../brick[2]/userVariable"/>
-                  <alignmentSelection>0</alignmentSelection>
-                </brick>
-              </brickList>
-              <commentedOut>false</commentedOut>
-              <scriptId>c97f4ae7-751f-423a-b096-b959122e7259</scriptId>
-            </script>
-            <script type="BroadcastScript" posX="0.0" posY="0.0">
-              <brickList>
-                <brick type="HideTextBrick">
-                  <brickId>51b1b070-5de6-4435-90d9-4f34b18a2e09</brickId>
-                  <commentedOut>false</commentedOut>
-                  <userVariable type="UserVariable" serialization="custom">
-                    <userVariable>
-                      <default>
-                        <initialIndex>3</initialIndex>
-                        <deviceValueKey>8250dd82-88b4-4447-8293-b29549ec345b</deviceValueKey>
-                        <name>REMOVABLE_DISK</name>
-                      </default>
-                    </userVariable>
-                  </userVariable>
-                </brick>
-                <brick type="HideTextBrick">
-                  <brickId>df202726-7619-43a3-a430-c63bad411eed</brickId>
-                  <commentedOut>false</commentedOut>
-                  <userVariable type="UserVariable" serialization="custom">
-                    <userVariable>
-                      <default>
-                        <initialIndex>0</initialIndex>
-                        <deviceValueKey>4abcb330-de96-4cb4-9965-8499697dcf65</deviceValueKey>
-                        <name>HARD_DRIVE</name>
-                      </default>
-                    </userVariable>
-                  </userVariable>
-                </brick>
-              </brickList>
-              <commentedOut>false</commentedOut>
-              <scriptId>788e76f4-5883-43c6-af66-7e0e19deb8ab</scriptId>
-              <receivedMessage>StartVM</receivedMessage>
             </script>
           </scriptList>
           <nfcTagList/>
@@ -396,15 +246,15 @@
                   <brickId>0b1044bf-afb3-4034-8326-9a9e3a022cd6</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="Y_POSITION">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>500</value>
-                    </formula>
                     <formula category="X_POSITION">
                       <additionalChildren/>
                       <type>NUMBER</type>
                       <value>99</value>
+                    </formula>
+                    <formula category="Y_POSITION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>500</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -466,25 +316,25 @@
                   <brickId>a00151ae-44c3-4b3e-8651-59cda6f557be</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="Y_POSITION">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>494</value>
-                    </formula>
                     <formula category="COLOR">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>#FFFFFF</value>
+                    </formula>
+                    <formula category="X_POSITION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>681</value>
                     </formula>
                     <formula category="SIZE">
                       <additionalChildren/>
                       <type>NUMBER</type>
                       <value>120.0</value>
                     </formula>
-                    <formula category="X_POSITION">
+                    <formula category="Y_POSITION">
                       <additionalChildren/>
                       <type>NUMBER</type>
-                      <value>681</value>
+                      <value>494</value>
                     </formula>
                   </formulaList>
                   <userVariable reference="../../../../script/brickList/brick/userVariable"/>
@@ -774,15 +624,15 @@
                   <brickId>0b1044bf-afb3-4034-8326-9a9e3a022cd6</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="Y_POSITION">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>500</value>
-                    </formula>
                     <formula category="X_POSITION">
                       <additionalChildren/>
                       <type>NUMBER</type>
                       <value>99</value>
+                    </formula>
+                    <formula category="Y_POSITION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>500</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -855,11 +705,6 @@
                   <brickId>a00151ae-44c3-4b3e-8651-59cda6f557be</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="Y_POSITION">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>494</value>
-                    </formula>
                     <formula category="COLOR">
                       <additionalChildren/>
                       <type>STRING</type>
@@ -874,6 +719,11 @@
                       <additionalChildren/>
                       <type>NUMBER</type>
                       <value>120.0</value>
+                    </formula>
+                    <formula category="Y_POSITION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>494</value>
                     </formula>
                   </formulaList>
                   <userVariable reference="../../brick[7]/userVariable"/>
@@ -1202,15 +1052,15 @@
                   <brickId>26bfb647-b9b1-4903-80aa-3ebb42f57c8b</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="Y_POSITION">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>350</value>
-                    </formula>
                     <formula category="X_POSITION">
                       <additionalChildren/>
                       <type>NUMBER</type>
                       <value>99</value>
+                    </formula>
+                    <formula category="Y_POSITION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>350</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -1272,6 +1122,21 @@
                   <brickId>ad6dc6a3-c63d-43b8-ac5a-b35eab88dc66</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
+                    <formula category="COLOR">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>#FFFFFF</value>
+                    </formula>
+                    <formula category="X_POSITION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>681</value>
+                    </formula>
+                    <formula category="SIZE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>120.0</value>
+                    </formula>
                     <formula category="Y_POSITION">
                       <additionalChildren/>
                       <leftChild>
@@ -1286,21 +1151,6 @@
                       </rightChild>
                       <type>OPERATOR</type>
                       <value>MINUS</value>
-                    </formula>
-                    <formula category="COLOR">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value>#FFFFFF</value>
-                    </formula>
-                    <formula category="SIZE">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>120.0</value>
-                    </formula>
-                    <formula category="X_POSITION">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>681</value>
                     </formula>
                   </formulaList>
                   <userVariable reference="../../../../script/brickList/brick/userVariable"/>
@@ -1592,15 +1442,15 @@
                   <brickId>26bfb647-b9b1-4903-80aa-3ebb42f57c8b</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="Y_POSITION">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>350</value>
-                    </formula>
                     <formula category="X_POSITION">
                       <additionalChildren/>
                       <type>NUMBER</type>
                       <value>99</value>
+                    </formula>
+                    <formula category="Y_POSITION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>350</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -1673,21 +1523,6 @@
                   <brickId>ad6dc6a3-c63d-43b8-ac5a-b35eab88dc66</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="Y_POSITION">
-                      <additionalChildren/>
-                      <leftChild>
-                        <additionalChildren/>
-                        <type>NUMBER</type>
-                        <value>494</value>
-                      </leftChild>
-                      <rightChild>
-                        <additionalChildren/>
-                        <type>NUMBER</type>
-                        <value>150</value>
-                      </rightChild>
-                      <type>OPERATOR</type>
-                      <value>MINUS</value>
-                    </formula>
                     <formula category="COLOR">
                       <additionalChildren/>
                       <type>STRING</type>
@@ -1702,6 +1537,21 @@
                       <additionalChildren/>
                       <type>NUMBER</type>
                       <value>120.0</value>
+                    </formula>
+                    <formula category="Y_POSITION">
+                      <additionalChildren/>
+                      <leftChild>
+                        <additionalChildren/>
+                        <type>NUMBER</type>
+                        <value>494</value>
+                      </leftChild>
+                      <rightChild>
+                        <additionalChildren/>
+                        <type>NUMBER</type>
+                        <value>150</value>
+                      </rightChild>
+                      <type>OPERATOR</type>
+                      <value>MINUS</value>
                     </formula>
                   </formulaList>
                   <userVariable reference="../../brick[7]/userVariable"/>
@@ -2004,11 +1854,6 @@
                   <brickId>3e31f117-375f-41eb-a61f-94567f0e5870</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="Y_POSITION">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>63</value>
-                    </formula>
                     <formula category="X_POSITION">
                       <additionalChildren/>
                       <rightChild>
@@ -2018,6 +1863,11 @@
                       </rightChild>
                       <type>OPERATOR</type>
                       <value>MINUS</value>
+                    </formula>
+                    <formula category="Y_POSITION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>63</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -2042,20 +1892,20 @@
                   <brickId>b8f23010-e591-4fa8-9af9-b4afb3f57d79</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="NAME">
+                    <formula category="MESSAGE">
                       <additionalChildren/>
                       <type>STRING</type>
-                      <value>myDialog</value>
+                      <value></value>
                     </formula>
                     <formula category="TITLE">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>Where do you want to select the file from?</value>
                     </formula>
-                    <formula category="MESSAGE">
+                    <formula category="NAME">
                       <additionalChildren/>
                       <type>STRING</type>
-                      <value></value>
+                      <value>myDialog</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -2063,15 +1913,15 @@
                   <brickId>760c9f5a-e218-42c3-bee1-811790c2d895</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="NAME">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value>myDialog</value>
-                    </formula>
                     <formula category="TEXT">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>Project files</value>
+                    </formula>
+                    <formula category="NAME">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>myDialog</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -2079,15 +1929,15 @@
                   <brickId>d8c9d532-c956-4bbc-bf3d-8684a919698a</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="NAME">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value>myDialog</value>
-                    </formula>
                     <formula category="TEXT">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>Select any file</value>
+                    </formula>
+                    <formula category="NAME">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>myDialog</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -2095,15 +1945,15 @@
                   <brickId>bb421e69-d03b-4939-bc57-ca1c55800cba</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="NAME">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value>myDialog</value>
-                    </formula>
                     <formula category="TEXT">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>OK</value>
+                    </formula>
+                    <formula category="NAME">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>myDialog</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -2175,16 +2025,16 @@
                   <brickId>223b1230-3342-4210-ba50-a4583b276e92</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
+                    <formula category="TEXT">
+                      <additionalChildren/>
+                      <type>USER_VARIABLE</type>
+                      <value>ans</value>
+                    </formula>
                     <formula category="VALUE">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>
 </value>
-                    </formula>
-                    <formula category="TEXT">
-                      <additionalChildren/>
-                      <type>USER_VARIABLE</type>
-                      <value>ans</value>
                     </formula>
                   </formulaList>
                   <userList>
@@ -2373,11 +2223,6 @@
                   <brickId>f56cf15b-3fff-49f2-8b5e-eb586156c445</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="Y_POSITION">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>63</value>
-                    </formula>
                     <formula category="X_POSITION">
                       <additionalChildren/>
                       <rightChild>
@@ -2387,6 +2232,11 @@
                       </rightChild>
                       <type>OPERATOR</type>
                       <value>MINUS</value>
+                    </formula>
+                    <formula category="Y_POSITION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>63</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -2549,22 +2399,22 @@
                   <brickId>251a82c6-72b7-456a-80e2-c199287fbfa6</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="Y_POSITION">
-                      <additionalChildren/>
-                      <rightChild>
-                        <additionalChildren/>
-                        <type>NUMBER</type>
-                        <value>207</value>
-                      </rightChild>
-                      <type>OPERATOR</type>
-                      <value>MINUS</value>
-                    </formula>
                     <formula category="X_POSITION">
                       <additionalChildren/>
                       <rightChild>
                         <additionalChildren/>
                         <type>NUMBER</type>
                         <value>886</value>
+                      </rightChild>
+                      <type>OPERATOR</type>
+                      <value>MINUS</value>
+                    </formula>
+                    <formula category="Y_POSITION">
+                      <additionalChildren/>
+                      <rightChild>
+                        <additionalChildren/>
+                        <type>NUMBER</type>
+                        <value>207</value>
                       </rightChild>
                       <type>OPERATOR</type>
                       <value>MINUS</value>
@@ -2690,22 +2540,22 @@
                   <brickId>cfedc07d-905e-40cd-8a04-efee4b3fee92</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="Y_POSITION">
-                      <additionalChildren/>
-                      <rightChild>
-                        <additionalChildren/>
-                        <type>NUMBER</type>
-                        <value>672</value>
-                      </rightChild>
-                      <type>OPERATOR</type>
-                      <value>MINUS</value>
-                    </formula>
                     <formula category="X_POSITION">
                       <additionalChildren/>
                       <rightChild>
                         <additionalChildren/>
                         <type>NUMBER</type>
                         <value>986</value>
+                      </rightChild>
+                      <type>OPERATOR</type>
+                      <value>MINUS</value>
+                    </formula>
+                    <formula category="Y_POSITION">
+                      <additionalChildren/>
+                      <rightChild>
+                        <additionalChildren/>
+                        <type>NUMBER</type>
+                        <value>672</value>
                       </rightChild>
                       <type>OPERATOR</type>
                       <value>MINUS</value>
@@ -2845,16 +2695,6 @@
                   <brickId>ef16dd0d-6ef0-419f-b8f5-fa9f2c6071a7</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="VM_MEMORY">
-                      <additionalChildren/>
-                      <type>USER_VARIABLE</type>
-                      <value>RAM</value>
-                    </formula>
-                    <formula category="VM_HDA">
-                      <additionalChildren/>
-                      <type>USER_VARIABLE</type>
-                      <value>HARD_DRIVE</value>
-                    </formula>
                     <formula category="VM_CPU">
                       <additionalChildren/>
                       <type>USER_VARIABLE</type>
@@ -2864,6 +2704,16 @@
                       <additionalChildren/>
                       <type>USER_VARIABLE</type>
                       <value>REMOVABLE_DISK</value>
+                    </formula>
+                    <formula category="VM_HDA">
+                      <additionalChildren/>
+                      <type>USER_VARIABLE</type>
+                      <value>HARD_DRIVE</value>
+                    </formula>
+                    <formula category="VM_MEMORY">
+                      <additionalChildren/>
+                      <type>USER_VARIABLE</type>
+                      <value>RAM</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -2965,26 +2815,6 @@
                   <brickId>33fdd7af-2c97-4c06-8c82-2dff6215b7f6</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="Y_POSITION">
-                      <additionalChildren/>
-                      <leftChild>
-                        <additionalChildren/>
-                        <type>USER_VARIABLE</type>
-                        <value>Y_MOUSE</value>
-                      </leftChild>
-                      <rightChild>
-                        <additionalChildren/>
-                        <type>NUMBER</type>
-                        <value>100</value>
-                      </rightChild>
-                      <type>OPERATOR</type>
-                      <value>PLUS</value>
-                    </formula>
-                    <formula category="VALUE">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1</value>
-                    </formula>
                     <formula category="X_POSITION">
                       <additionalChildren/>
                       <leftChild>
@@ -2996,6 +2826,26 @@
                         <additionalChildren/>
                         <type>NUMBER</type>
                         <value>120</value>
+                      </rightChild>
+                      <type>OPERATOR</type>
+                      <value>PLUS</value>
+                    </formula>
+                    <formula category="VALUE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1</value>
+                    </formula>
+                    <formula category="Y_POSITION">
+                      <additionalChildren/>
+                      <leftChild>
+                        <additionalChildren/>
+                        <type>USER_VARIABLE</type>
+                        <value>Y_MOUSE</value>
+                      </leftChild>
+                      <rightChild>
+                        <additionalChildren/>
+                        <type>NUMBER</type>
+                        <value>100</value>
                       </rightChild>
                       <type>OPERATOR</type>
                       <value>PLUS</value>
@@ -3017,26 +2867,6 @@
                   <brickId>5b027f41-9562-450a-94dc-bc641265a613</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="Y_POSITION">
-                      <additionalChildren/>
-                      <leftChild>
-                        <additionalChildren/>
-                        <type>USER_VARIABLE</type>
-                        <value>Y_MOUSE</value>
-                      </leftChild>
-                      <rightChild>
-                        <additionalChildren/>
-                        <type>NUMBER</type>
-                        <value>100</value>
-                      </rightChild>
-                      <type>OPERATOR</type>
-                      <value>PLUS</value>
-                    </formula>
-                    <formula category="VALUE">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>0</value>
-                    </formula>
                     <formula category="X_POSITION">
                       <additionalChildren/>
                       <leftChild>
@@ -3048,6 +2878,26 @@
                         <additionalChildren/>
                         <type>NUMBER</type>
                         <value>120</value>
+                      </rightChild>
+                      <type>OPERATOR</type>
+                      <value>PLUS</value>
+                    </formula>
+                    <formula category="VALUE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>0</value>
+                    </formula>
+                    <formula category="Y_POSITION">
+                      <additionalChildren/>
+                      <leftChild>
+                        <additionalChildren/>
+                        <type>USER_VARIABLE</type>
+                        <value>Y_MOUSE</value>
+                      </leftChild>
+                      <rightChild>
+                        <additionalChildren/>
+                        <type>NUMBER</type>
+                        <value>100</value>
                       </rightChild>
                       <type>OPERATOR</type>
                       <value>PLUS</value>
@@ -3296,31 +3146,6 @@
                       <brickId>5cc79aef-c4b1-49b6-85c0-d7f8ad5baee6</brickId>
                       <commentedOut>false</commentedOut>
                       <formulaList>
-                        <formula category="Y_POSITION">
-                          <additionalChildren/>
-                          <leftChild>
-                            <additionalChildren/>
-                            <leftChild>
-                              <additionalChildren/>
-                              <type>USER_VARIABLE</type>
-                              <value>Y_MOUSE</value>
-                            </leftChild>
-                            <type>FUNCTION</type>
-                            <value>ROUND</value>
-                          </leftChild>
-                          <rightChild>
-                            <additionalChildren/>
-                            <type>NUMBER</type>
-                            <value>100</value>
-                          </rightChild>
-                          <type>OPERATOR</type>
-                          <value>PLUS</value>
-                        </formula>
-                        <formula category="VALUE">
-                          <additionalChildren/>
-                          <type>NUMBER</type>
-                          <value>0</value>
-                        </formula>
                         <formula category="X_POSITION">
                           <additionalChildren/>
                           <leftChild>
@@ -3341,6 +3166,31 @@
                           <type>OPERATOR</type>
                           <value>PLUS</value>
                         </formula>
+                        <formula category="VALUE">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>0</value>
+                        </formula>
+                        <formula category="Y_POSITION">
+                          <additionalChildren/>
+                          <leftChild>
+                            <additionalChildren/>
+                            <leftChild>
+                              <additionalChildren/>
+                              <type>USER_VARIABLE</type>
+                              <value>Y_MOUSE</value>
+                            </leftChild>
+                            <type>FUNCTION</type>
+                            <value>ROUND</value>
+                          </leftChild>
+                          <rightChild>
+                            <additionalChildren/>
+                            <type>NUMBER</type>
+                            <value>100</value>
+                          </rightChild>
+                          <type>OPERATOR</type>
+                          <value>PLUS</value>
+                        </formula>
                       </formulaList>
                     </brick>
                   </loopBricks>
@@ -3355,55 +3205,35 @@
                   <brickId>8278238b-a319-4a97-93ef-0e3ee7cd121f</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="NAME">
+                    <formula category="ALIGNMENT">
                       <additionalChildren/>
                       <type>STRING</type>
-                      <value>myTextField</value>
+                      <value>center</value>
                     </formula>
-                    <formula category="TEXTSIZE">
+                    <formula category="X_POSITION">
                       <additionalChildren/>
                       <type>NUMBER</type>
-                      <value>22</value>
-                    </formula>
-                    <formula category="HINT_COLOR">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value>#CCCCCC</value>
-                    </formula>
-                    <formula category="PASSWORD">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>0</value>
-                    </formula>
-                    <formula category="BGCOLOR">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value>#88000000</value>
-                    </formula>
-                    <formula category="TEXTCOLOR">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value>#FFFFFF</value>
-                    </formula>
-                    <formula category="FILE">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value>если файла не существует - по умолчанию</value>
+                      <value>600</value>
                     </formula>
                     <formula category="HEIGHT">
                       <additionalChildren/>
                       <type>NUMBER</type>
                       <value>100</value>
                     </formula>
-                    <formula category="ALIGNMENT">
+                    <formula category="TEXT">
                       <additionalChildren/>
                       <type>STRING</type>
-                      <value>center</value>
+                      <value></value>
                     </formula>
-                    <formula category="Y_POSITION">
+                    <formula category="WIDTH">
                       <additionalChildren/>
                       <type>NUMBER</type>
-                      <value>20</value>
+                      <value>1200</value>
+                    </formula>
+                    <formula category="NAME">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>myTextField</value>
                     </formula>
                     <formula category="MAX_LEN">
                       <additionalChildren/>
@@ -3415,35 +3245,55 @@
                       <type>OPERATOR</type>
                       <value>MINUS</value>
                     </formula>
-                    <formula category="CORNER">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>5</value>
-                    </formula>
-                    <formula category="X_POSITION">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>600</value>
-                    </formula>
-                    <formula category="TEXT">
+                    <formula category="BGCOLOR">
                       <additionalChildren/>
                       <type>STRING</type>
-                      <value></value>
+                      <value>#88000000</value>
                     </formula>
-                    <formula category="TYPE">
+                    <formula category="TEXTSIZE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>22</value>
+                    </formula>
+                    <formula category="TEXTCOLOR">
                       <additionalChildren/>
                       <type>STRING</type>
-                      <value>text</value>
+                      <value>#FFFFFF</value>
+                    </formula>
+                    <formula category="PASSWORD">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>0</value>
+                    </formula>
+                    <formula category="FILE">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>если файла не существует - по умолчанию</value>
                     </formula>
                     <formula category="HINT_TEXT">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>Клавиатура</value>
                     </formula>
-                    <formula category="WIDTH">
+                    <formula category="HINT_COLOR">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>#CCCCCC</value>
+                    </formula>
+                    <formula category="TYPE">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>text</value>
+                    </formula>
+                    <formula category="Y_POSITION">
                       <additionalChildren/>
                       <type>NUMBER</type>
-                      <value>1200</value>
+                      <value>20</value>
+                    </formula>
+                    <formula category="CORNER">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>5</value>
                     </formula>
                   </formulaList>
                   <userVariable type="UserVariable" serialization="custom">
@@ -3503,55 +3353,35 @@
                   <brickId>9fe0d3db-dbff-4239-8bc5-d1e4892fa22c</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="NAME">
+                    <formula category="ALIGNMENT">
                       <additionalChildren/>
                       <type>STRING</type>
-                      <value>myTextField</value>
+                      <value>center</value>
                     </formula>
-                    <formula category="TEXTSIZE">
+                    <formula category="X_POSITION">
                       <additionalChildren/>
                       <type>NUMBER</type>
-                      <value>22</value>
-                    </formula>
-                    <formula category="HINT_COLOR">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value>#CCCCCC</value>
-                    </formula>
-                    <formula category="PASSWORD">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>0</value>
-                    </formula>
-                    <formula category="BGCOLOR">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value>#88000000</value>
-                    </formula>
-                    <formula category="TEXTCOLOR">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value>#FFFFFF</value>
-                    </formula>
-                    <formula category="FILE">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value>если файла не существует - по умолчанию</value>
+                      <value>300</value>
                     </formula>
                     <formula category="HEIGHT">
                       <additionalChildren/>
                       <type>NUMBER</type>
                       <value>100</value>
                     </formula>
-                    <formula category="ALIGNMENT">
+                    <formula category="TEXT">
                       <additionalChildren/>
                       <type>STRING</type>
-                      <value>center</value>
+                      <value></value>
                     </formula>
-                    <formula category="Y_POSITION">
+                    <formula category="WIDTH">
                       <additionalChildren/>
                       <type>NUMBER</type>
-                      <value>20</value>
+                      <value>1200</value>
+                    </formula>
+                    <formula category="NAME">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>myTextField</value>
                     </formula>
                     <formula category="MAX_LEN">
                       <additionalChildren/>
@@ -3563,35 +3393,55 @@
                       <type>OPERATOR</type>
                       <value>MINUS</value>
                     </formula>
-                    <formula category="CORNER">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>5</value>
-                    </formula>
-                    <formula category="X_POSITION">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>300</value>
-                    </formula>
-                    <formula category="TEXT">
+                    <formula category="BGCOLOR">
                       <additionalChildren/>
                       <type>STRING</type>
-                      <value></value>
+                      <value>#88000000</value>
                     </formula>
-                    <formula category="TYPE">
+                    <formula category="TEXTSIZE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>22</value>
+                    </formula>
+                    <formula category="TEXTCOLOR">
                       <additionalChildren/>
                       <type>STRING</type>
-                      <value>text</value>
+                      <value>#FFFFFF</value>
+                    </formula>
+                    <formula category="PASSWORD">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>0</value>
+                    </formula>
+                    <formula category="FILE">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>если файла не существует - по умолчанию</value>
                     </formula>
                     <formula category="HINT_TEXT">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>Клавиатура</value>
                     </formula>
-                    <formula category="WIDTH">
+                    <formula category="HINT_COLOR">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>#CCCCCC</value>
+                    </formula>
+                    <formula category="TYPE">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>text</value>
+                    </formula>
+                    <formula category="Y_POSITION">
                       <additionalChildren/>
                       <type>NUMBER</type>
-                      <value>1200</value>
+                      <value>20</value>
+                    </formula>
+                    <formula category="CORNER">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>5</value>
                     </formula>
                   </formulaList>
                   <userVariable reference="../../../../script[3]/brickList/brick/userVariable"/>
@@ -3844,1019 +3694,6 @@
                 </formula>
               </formulaMap>
             </script>
-            <script type="StartScript" posX="0.0" posY="0.0">
-              <brickList>
-                <brick type="RunVMBrick">
-                  <brickId>ef16dd0d-6ef0-419f-b8f5-fa9f2c6071a7</brickId>
-                  <commentedOut>false</commentedOut>
-                  <formulaList>
-                    <formula category="VM_MEMORY">
-                      <additionalChildren/>
-                      <type>USER_VARIABLE</type>
-                      <value>RAM</value>
-                    </formula>
-                    <formula category="VM_HDA">
-                      <additionalChildren/>
-                      <type>USER_VARIABLE</type>
-                      <value>HARD_DRIVE</value>
-                    </formula>
-                    <formula category="VM_CPU">
-                      <additionalChildren/>
-                      <type>USER_VARIABLE</type>
-                      <value>CPU</value>
-                    </formula>
-                    <formula category="VM_CDROM">
-                      <additionalChildren/>
-                      <type>USER_VARIABLE</type>
-                      <value>REMOVABLE_DISK</value>
-                    </formula>
-                  </formulaList>
-                </brick>
-                <brick type="ToggleDisplayBrick">
-                  <brickId>c551c4b2-87c8-4c7c-b938-1cd35d4aa8da</brickId>
-                  <commentedOut>false</commentedOut>
-                  <formulaList>
-                    <formula category="VALUE">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1</value>
-                    </formula>
-                  </formulaList>
-                </brick>
-                <brick type="WaitBrick">
-                  <brickId>bb203190-1b17-42c1-8e5f-a46f6a22cecd</brickId>
-                  <commentedOut>false</commentedOut>
-                  <formulaList>
-                    <formula category="TIME_TO_WAIT_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>3</value>
-                    </formula>
-                  </formulaList>
-                </brick>
-                <brick type="HideBrick">
-                  <brickId>3757c138-b2fe-414c-9ee1-29a400768788</brickId>
-                  <commentedOut>false</commentedOut>
-                </brick>
-              </brickList>
-              <commentedOut>false</commentedOut>
-              <scriptId>ae4cb7ae-9b7c-4902-9e0f-cff6c6e1176d</scriptId>
-            </script>
-            <org.catrobat.catroid.content.ExitProjectScript type="ExitProjectScript" posX="0.0" posY="0.0">
-              <brickList>
-                <brick type="DeleteFilesBrick">
-                  <brickId>e7311903-fe58-406c-a80f-2655c9522c7e</brickId>
-                  <commentedOut>false</commentedOut>
-                  <formulaList>
-                    <formula category="VALUE">
-                      <additionalChildren/>
-                      <type>USER_VARIABLE</type>
-                      <value>REMOVABLE_DISK</value>
-                    </formula>
-                  </formulaList>
-                </brick>
-                <brick type="StopVMBrick">
-                  <brickId>dc11c8dd-fc79-4b3e-a91a-d8aa0c6de338</brickId>
-                  <commentedOut>false</commentedOut>
-                  <formulaList/>
-                </brick>
-              </brickList>
-              <commentedOut>false</commentedOut>
-              <scriptId>d3518711-441c-48cf-8d98-37c77091f7ec</scriptId>
-            </org.catrobat.catroid.content.ExitProjectScript>
-            <script type="WhenTouchDownScript" posX="0.0" posY="0.0">
-              <brickList>
-                <brick type="SetVariableBrick">
-                  <brickId>4cf6e94e-7e1c-4ffd-9020-e9a0cfb70da1</brickId>
-                  <commentedOut>true</commentedOut>
-                  <formulaList>
-                    <formula category="VARIABLE">
-                      <additionalChildren/>
-                      <type>SENSOR</type>
-                      <value>FINGER_X</value>
-                    </formula>
-                  </formulaList>
-                  <userVariable type="UserVariable" serialization="custom">
-                    <userVariable>
-                      <default>
-                        <initialIndex>4</initialIndex>
-                        <deviceValueKey>1e43cf74-6d1e-4751-b6bc-e5362372490f</deviceValueKey>
-                        <name>X_MOUSE</name>
-                      </default>
-                    </userVariable>
-                  </userVariable>
-                </brick>
-                <brick type="SetVariableBrick">
-                  <brickId>930b698b-3327-4ea1-868f-b401fdaf7d3d</brickId>
-                  <commentedOut>true</commentedOut>
-                  <formulaList>
-                    <formula category="VARIABLE">
-                      <additionalChildren/>
-                      <type>SENSOR</type>
-                      <value>FINGER_Y</value>
-                    </formula>
-                  </formulaList>
-                  <userVariable type="UserVariable" serialization="custom">
-                    <userVariable>
-                      <default>
-                        <initialIndex>5</initialIndex>
-                        <deviceValueKey>e81c2fa5-3c81-4a66-b22a-f9732482eb5a</deviceValueKey>
-                        <name>Y_MOUSE</name>
-                      </default>
-                    </userVariable>
-                  </userVariable>
-                </brick>
-                <brick type="MouseEventBrick">
-                  <brickId>33fdd7af-2c97-4c06-8c82-2dff6215b7f6</brickId>
-                  <commentedOut>false</commentedOut>
-                  <formulaList>
-                    <formula category="Y_POSITION">
-                      <additionalChildren/>
-                      <leftChild>
-                        <additionalChildren/>
-                        <type>USER_VARIABLE</type>
-                        <value>Y_MOUSE</value>
-                      </leftChild>
-                      <rightChild>
-                        <additionalChildren/>
-                        <type>NUMBER</type>
-                        <value>100</value>
-                      </rightChild>
-                      <type>OPERATOR</type>
-                      <value>PLUS</value>
-                    </formula>
-                    <formula category="X_POSITION">
-                      <additionalChildren/>
-                      <leftChild>
-                        <additionalChildren/>
-                        <type>USER_VARIABLE</type>
-                        <value>X_MOUSE</value>
-                      </leftChild>
-                      <rightChild>
-                        <additionalChildren/>
-                        <type>NUMBER</type>
-                        <value>120</value>
-                      </rightChild>
-                      <type>OPERATOR</type>
-                      <value>PLUS</value>
-                    </formula>
-                    <formula category="VALUE">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1</value>
-                    </formula>
-                  </formulaList>
-                </brick>
-                <brick type="WaitBrick">
-                  <brickId>5fd0fec8-f4bb-4a97-bdf6-47ea67104dd9</brickId>
-                  <commentedOut>false</commentedOut>
-                  <formulaList>
-                    <formula category="TIME_TO_WAIT_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>0.1</value>
-                    </formula>
-                  </formulaList>
-                </brick>
-                <brick type="MouseEventBrick">
-                  <brickId>5b027f41-9562-450a-94dc-bc641265a613</brickId>
-                  <commentedOut>false</commentedOut>
-                  <formulaList>
-                    <formula category="Y_POSITION">
-                      <additionalChildren/>
-                      <leftChild>
-                        <additionalChildren/>
-                        <type>USER_VARIABLE</type>
-                        <value>Y_MOUSE</value>
-                      </leftChild>
-                      <rightChild>
-                        <additionalChildren/>
-                        <type>NUMBER</type>
-                        <value>100</value>
-                      </rightChild>
-                      <type>OPERATOR</type>
-                      <value>PLUS</value>
-                    </formula>
-                    <formula category="X_POSITION">
-                      <additionalChildren/>
-                      <leftChild>
-                        <additionalChildren/>
-                        <type>USER_VARIABLE</type>
-                        <value>X_MOUSE</value>
-                      </leftChild>
-                      <rightChild>
-                        <additionalChildren/>
-                        <type>NUMBER</type>
-                        <value>120</value>
-                      </rightChild>
-                      <type>OPERATOR</type>
-                      <value>PLUS</value>
-                    </formula>
-                    <formula category="VALUE">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>0</value>
-                    </formula>
-                  </formulaList>
-                </brick>
-                <brick type="RepeatUntilBrick">
-                  <brickId>99c7ec9c-e73f-47cc-a775-7b7f1f15eb01</brickId>
-                  <commentedOut>false</commentedOut>
-                  <formulaList>
-                    <formula category="REPEAT_UNTIL_CONDITION">
-                      <additionalChildren/>
-                      <leftChild>
-                        <additionalChildren/>
-                        <type>SENSOR</type>
-                        <value>FINGER_TOUCHED</value>
-                      </leftChild>
-                      <rightChild>
-                        <additionalChildren/>
-                        <type>FUNCTION</type>
-                        <value>FALSE</value>
-                      </rightChild>
-                      <type>OPERATOR</type>
-                      <value>EQUAL</value>
-                    </formula>
-                  </formulaList>
-                  <loopBricks>
-                    <brick type="SetVariableBrick">
-                      <brickId>745d2143-2612-4e46-9cc9-9a5d65b46184</brickId>
-                      <commentedOut>false</commentedOut>
-                      <formulaList>
-                        <formula category="VARIABLE">
-                          <additionalChildren/>
-                          <type>SENSOR</type>
-                          <value>FINGER_X</value>
-                        </formula>
-                      </formulaList>
-                      <userVariable type="UserVariable" serialization="custom">
-                        <userVariable>
-                          <default>
-                            <initialIndex>0</initialIndex>
-                            <deviceValueKey>13ae0bc6-02eb-4b0c-ba29-63e9580fc758</deviceValueKey>
-                            <name>x1</name>
-                          </default>
-                        </userVariable>
-                      </userVariable>
-                    </brick>
-                    <brick type="SetVariableBrick">
-                      <brickId>9eb3710d-6fee-4114-9bd1-ac3fc8da39c3</brickId>
-                      <commentedOut>false</commentedOut>
-                      <formulaList>
-                        <formula category="VARIABLE">
-                          <additionalChildren/>
-                          <type>SENSOR</type>
-                          <value>FINGER_Y</value>
-                        </formula>
-                      </formulaList>
-                      <userVariable type="UserVariable" serialization="custom">
-                        <userVariable>
-                          <default>
-                            <initialIndex>1</initialIndex>
-                            <deviceValueKey>c1b32d6c-157f-4074-b5d3-d2d2b5f4ff25</deviceValueKey>
-                            <name>y1</name>
-                          </default>
-                        </userVariable>
-                      </userVariable>
-                    </brick>
-                    <brick type="WaitUntilBrick">
-                      <brickId>2702ab64-b389-40fd-9b92-647b0791668c</brickId>
-                      <commentedOut>false</commentedOut>
-                      <formulaList>
-                        <formula category="IF_CONDITION">
-                          <additionalChildren/>
-                          <leftChild>
-                            <additionalChildren/>
-                            <type>NUMBER</type>
-                            <value>1</value>
-                          </leftChild>
-                          <rightChild>
-                            <additionalChildren/>
-                            <type>NUMBER</type>
-                            <value>2</value>
-                          </rightChild>
-                          <type>OPERATOR</type>
-                          <value>SMALLER_THAN</value>
-                        </formula>
-                      </formulaList>
-                    </brick>
-                    <brick type="SetVariableBrick">
-                      <brickId>9d479fa5-91e3-4ac5-8d4d-88cea91c906b</brickId>
-                      <commentedOut>false</commentedOut>
-                      <formulaList>
-                        <formula category="VARIABLE">
-                          <additionalChildren/>
-                          <type>SENSOR</type>
-                          <value>FINGER_X</value>
-                        </formula>
-                      </formulaList>
-                      <userVariable type="UserVariable" serialization="custom">
-                        <userVariable>
-                          <default>
-                            <initialIndex>2</initialIndex>
-                            <deviceValueKey>952f4f95-860e-4e01-8b41-a517289be0f2</deviceValueKey>
-                            <name>x2</name>
-                          </default>
-                        </userVariable>
-                      </userVariable>
-                    </brick>
-                    <brick type="SetVariableBrick">
-                      <brickId>f041eaa1-cdc0-4164-be6d-760528a21db2</brickId>
-                      <commentedOut>false</commentedOut>
-                      <formulaList>
-                        <formula category="VARIABLE">
-                          <additionalChildren/>
-                          <type>SENSOR</type>
-                          <value>FINGER_Y</value>
-                        </formula>
-                      </formulaList>
-                      <userVariable type="UserVariable" serialization="custom">
-                        <userVariable>
-                          <default>
-                            <initialIndex>3</initialIndex>
-                            <deviceValueKey>b589805a-f9e7-45a3-a650-4b413319e28f</deviceValueKey>
-                            <name>y2</name>
-                          </default>
-                        </userVariable>
-                      </userVariable>
-                    </brick>
-                    <brick type="SetVariableBrick">
-                      <brickId>e717cf70-a18c-43f3-8d68-8f72638d0fb3</brickId>
-                      <commentedOut>false</commentedOut>
-                      <formulaList>
-                        <formula category="VARIABLE">
-                          <additionalChildren>
-                            <org.catrobat.catroid.formulaeditor.FormulaElement>
-                              <additionalChildren/>
-                              <type>NUMBER</type>
-                              <value>400</value>
-                            </org.catrobat.catroid.formulaeditor.FormulaElement>
-                          </additionalChildren>
-                          <leftChild>
-                            <additionalChildren/>
-                            <leftChild>
-                              <additionalChildren/>
-                              <type>USER_VARIABLE</type>
-                              <value>Y_MOUSE</value>
-                            </leftChild>
-                            <rightChild>
-                              <additionalChildren/>
-                              <rightChild>
-                                <additionalChildren/>
-                                <leftChild>
-                                  <additionalChildren/>
-                                  <type>USER_VARIABLE</type>
-                                  <value>y2</value>
-                                </leftChild>
-                                <rightChild>
-                                  <additionalChildren/>
-                                  <type>USER_VARIABLE</type>
-                                  <value>y1</value>
-                                </rightChild>
-                                <type>OPERATOR</type>
-                                <value>MINUS</value>
-                              </rightChild>
-                              <type>BRACKET</type>
-                              <value></value>
-                            </rightChild>
-                            <type>OPERATOR</type>
-                            <value>PLUS</value>
-                          </leftChild>
-                          <rightChild>
-                            <additionalChildren/>
-                            <rightChild>
-                              <additionalChildren/>
-                              <type>NUMBER</type>
-                              <value>400</value>
-                            </rightChild>
-                            <type>OPERATOR</type>
-                            <value>MINUS</value>
-                          </rightChild>
-                          <type>FUNCTION</type>
-                          <value>CLAMP</value>
-                        </formula>
-                      </formulaList>
-                      <userVariable reference="../../../../brick[2]/userVariable"/>
-                    </brick>
-                    <brick type="SetVariableBrick">
-                      <brickId>cd8029bb-6453-4bd4-adb4-76bcf86d206f</brickId>
-                      <commentedOut>false</commentedOut>
-                      <formulaList>
-                        <formula category="VARIABLE">
-                          <additionalChildren>
-                            <org.catrobat.catroid.formulaeditor.FormulaElement>
-                              <additionalChildren/>
-                              <type>NUMBER</type>
-                              <value>720</value>
-                            </org.catrobat.catroid.formulaeditor.FormulaElement>
-                          </additionalChildren>
-                          <leftChild>
-                            <additionalChildren/>
-                            <leftChild>
-                              <additionalChildren/>
-                              <type>USER_VARIABLE</type>
-                              <value>X_MOUSE</value>
-                            </leftChild>
-                            <rightChild>
-                              <additionalChildren/>
-                              <rightChild>
-                                <additionalChildren/>
-                                <leftChild>
-                                  <additionalChildren/>
-                                  <type>USER_VARIABLE</type>
-                                  <value>x2</value>
-                                </leftChild>
-                                <rightChild>
-                                  <additionalChildren/>
-                                  <type>USER_VARIABLE</type>
-                                  <value>x1</value>
-                                </rightChild>
-                                <type>OPERATOR</type>
-                                <value>MINUS</value>
-                              </rightChild>
-                              <type>BRACKET</type>
-                              <value></value>
-                            </rightChild>
-                            <type>OPERATOR</type>
-                            <value>PLUS</value>
-                          </leftChild>
-                          <rightChild>
-                            <additionalChildren/>
-                            <rightChild>
-                              <additionalChildren/>
-                              <type>NUMBER</type>
-                              <value>720</value>
-                            </rightChild>
-                            <type>OPERATOR</type>
-                            <value>MINUS</value>
-                          </rightChild>
-                          <type>FUNCTION</type>
-                          <value>CLAMP</value>
-                        </formula>
-                      </formulaList>
-                      <userVariable reference="../../../../brick/userVariable"/>
-                    </brick>
-                    <brick type="MouseEventBrick">
-                      <brickId>5cc79aef-c4b1-49b6-85c0-d7f8ad5baee6</brickId>
-                      <commentedOut>false</commentedOut>
-                      <formulaList>
-                        <formula category="Y_POSITION">
-                          <additionalChildren/>
-                          <leftChild>
-                            <additionalChildren/>
-                            <leftChild>
-                              <additionalChildren/>
-                              <type>USER_VARIABLE</type>
-                              <value>Y_MOUSE</value>
-                            </leftChild>
-                            <type>FUNCTION</type>
-                            <value>ROUND</value>
-                          </leftChild>
-                          <rightChild>
-                            <additionalChildren/>
-                            <type>NUMBER</type>
-                            <value>100</value>
-                          </rightChild>
-                          <type>OPERATOR</type>
-                          <value>PLUS</value>
-                        </formula>
-                        <formula category="X_POSITION">
-                          <additionalChildren/>
-                          <leftChild>
-                            <additionalChildren/>
-                            <leftChild>
-                              <additionalChildren/>
-                              <type>USER_VARIABLE</type>
-                              <value>X_MOUSE</value>
-                            </leftChild>
-                            <type>FUNCTION</type>
-                            <value>ROUND</value>
-                          </leftChild>
-                          <rightChild>
-                            <additionalChildren/>
-                            <type>NUMBER</type>
-                            <value>120</value>
-                          </rightChild>
-                          <type>OPERATOR</type>
-                          <value>PLUS</value>
-                        </formula>
-                        <formula category="VALUE">
-                          <additionalChildren/>
-                          <type>NUMBER</type>
-                          <value>0</value>
-                        </formula>
-                      </formulaList>
-                    </brick>
-                  </loopBricks>
-                </brick>
-              </brickList>
-              <commentedOut>false</commentedOut>
-              <scriptId>9291669f-d4d8-4bc1-a4e3-7b28bb8c3adc</scriptId>
-            </script>
-            <script type="StartScript" posX="0.0" posY="0.0">
-              <brickList>
-                <brick type="CreateTextFieldBrick">
-                  <brickId>8278238b-a319-4a97-93ef-0e3ee7cd121f</brickId>
-                  <commentedOut>false</commentedOut>
-                  <formulaList>
-                    <formula category="NAME">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value>myTextField</value>
-                    </formula>
-                    <formula category="TEXTSIZE">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>22</value>
-                    </formula>
-                    <formula category="HINT_COLOR">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value>#CCCCCC</value>
-                    </formula>
-                    <formula category="PASSWORD">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>0</value>
-                    </formula>
-                    <formula category="BGCOLOR">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value>#88000000</value>
-                    </formula>
-                    <formula category="TEXTCOLOR">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value>#FFFFFF</value>
-                    </formula>
-                    <formula category="FILE">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value>если файла не существует - по умолчанию</value>
-                    </formula>
-                    <formula category="HEIGHT">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>100</value>
-                    </formula>
-                    <formula category="ALIGNMENT">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value>center</value>
-                    </formula>
-                    <formula category="Y_POSITION">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>20</value>
-                    </formula>
-                    <formula category="MAX_LEN">
-                      <additionalChildren/>
-                      <rightChild>
-                        <additionalChildren/>
-                        <type>NUMBER</type>
-                        <value>1</value>
-                      </rightChild>
-                      <type>OPERATOR</type>
-                      <value>MINUS</value>
-                    </formula>
-                    <formula category="CORNER">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>5</value>
-                    </formula>
-                    <formula category="X_POSITION">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>600</value>
-                    </formula>
-                    <formula category="TEXT">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value></value>
-                    </formula>
-                    <formula category="TYPE">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value>text</value>
-                    </formula>
-                    <formula category="WIDTH">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1200</value>
-                    </formula>
-                    <formula category="HINT_TEXT">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value>Клавиатура</value>
-                    </formula>
-                  </formulaList>
-                  <userVariable type="UserVariable" serialization="custom">
-                    <userVariable>
-                      <default>
-                        <initialIndex>4</initialIndex>
-                        <deviceValueKey>74acee04-0b28-4a11-9ef7-7d604c1a61bc</deviceValueKey>
-                        <name>text</name>
-                      </default>
-                    </userVariable>
-                  </userVariable>
-                </brick>
-              </brickList>
-              <commentedOut>false</commentedOut>
-              <scriptId>4104bf36-bbc4-44b2-8168-feb54d913f00</scriptId>
-            </script>
-            <script type="WhenConditionScript" posX="0.0" posY="0.0">
-              <brickList>
-                <brick type="SetVariableBrick">
-                  <brickId>8b554df5-297b-4a92-b10a-283f84a229ed</brickId>
-                  <commentedOut>false</commentedOut>
-                  <formulaList>
-                    <formula category="VARIABLE">
-                      <additionalChildren>
-                        <org.catrobat.catroid.formulaeditor.FormulaElement>
-                          <additionalChildren/>
-                          <type>STRING</type>
-                          <value></value>
-                        </org.catrobat.catroid.formulaeditor.FormulaElement>
-                      </additionalChildren>
-                      <leftChild>
-                        <additionalChildren/>
-                        <type>USER_VARIABLE</type>
-                        <value>text</value>
-                      </leftChild>
-                      <rightChild>
-                        <additionalChildren/>
-                        <type>STRING</type>
-                        <value>
-</value>
-                      </rightChild>
-                      <type>FUNCTION</type>
-                      <value>REPLACE</value>
-                    </formula>
-                  </formulaList>
-                  <userVariable type="UserVariable" serialization="custom">
-                    <userVariable>
-                      <default>
-                        <initialIndex>5</initialIndex>
-                        <deviceValueKey>538b4913-c211-4bde-bd2f-1c021bd0bc6f</deviceValueKey>
-                        <name>char</name>
-                      </default>
-                    </userVariable>
-                  </userVariable>
-                </brick>
-                <brick type="CreateTextFieldBrick">
-                  <brickId>9fe0d3db-dbff-4239-8bc5-d1e4892fa22c</brickId>
-                  <commentedOut>false</commentedOut>
-                  <formulaList>
-                    <formula category="NAME">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value>myTextField</value>
-                    </formula>
-                    <formula category="TEXTSIZE">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>22</value>
-                    </formula>
-                    <formula category="HINT_COLOR">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value>#CCCCCC</value>
-                    </formula>
-                    <formula category="PASSWORD">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>0</value>
-                    </formula>
-                    <formula category="BGCOLOR">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value>#88000000</value>
-                    </formula>
-                    <formula category="TEXTCOLOR">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value>#FFFFFF</value>
-                    </formula>
-                    <formula category="FILE">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value>если файла не существует - по умолчанию</value>
-                    </formula>
-                    <formula category="HEIGHT">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>100</value>
-                    </formula>
-                    <formula category="ALIGNMENT">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value>center</value>
-                    </formula>
-                    <formula category="Y_POSITION">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>20</value>
-                    </formula>
-                    <formula category="MAX_LEN">
-                      <additionalChildren/>
-                      <rightChild>
-                        <additionalChildren/>
-                        <type>NUMBER</type>
-                        <value>1</value>
-                      </rightChild>
-                      <type>OPERATOR</type>
-                      <value>MINUS</value>
-                    </formula>
-                    <formula category="CORNER">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>5</value>
-                    </formula>
-                    <formula category="X_POSITION">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>300</value>
-                    </formula>
-                    <formula category="TEXT">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value></value>
-                    </formula>
-                    <formula category="TYPE">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value>text</value>
-                    </formula>
-                    <formula category="WIDTH">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1200</value>
-                    </formula>
-                    <formula category="HINT_TEXT">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value>Клавиатура</value>
-                    </formula>
-                  </formulaList>
-                  <userVariable type="UserVariable" serialization="custom">
-                    <userVariable>
-                      <default>
-                        <initialIndex>4</initialIndex>
-                        <deviceValueKey>74acee04-0b28-4a11-9ef7-7d604c1a61bc</deviceValueKey>
-                        <name>text</name>
-                      </default>
-                    </userVariable>
-                  </userVariable>
-                </brick>
-                <brick type="IfLogicBeginBrick">
-                  <brickId>4cca46fe-24c8-4130-954d-91379c11017a</brickId>
-                  <commentedOut>false</commentedOut>
-                  <formulaList>
-                    <formula category="IF_CONDITION">
-                      <additionalChildren/>
-                      <leftChild>
-                        <additionalChildren/>
-                        <leftChild>
-                          <additionalChildren/>
-                          <leftChild>
-                            <additionalChildren/>
-                            <type>USER_VARIABLE</type>
-                            <value>char</value>
-                          </leftChild>
-                          <type>FUNCTION</type>
-                          <value>LENGTH</value>
-                        </leftChild>
-                        <rightChild>
-                          <additionalChildren/>
-                          <type>NUMBER</type>
-                          <value>1</value>
-                        </rightChild>
-                        <type>OPERATOR</type>
-                        <value>GREATER_THAN</value>
-                      </leftChild>
-                      <rightChild>
-                        <additionalChildren/>
-                        <leftChild>
-                          <additionalChildren/>
-                          <leftChild>
-                            <additionalChildren/>
-                            <type>NUMBER</type>
-                            <value>1</value>
-                          </leftChild>
-                          <rightChild>
-                            <additionalChildren/>
-                            <type>USER_VARIABLE</type>
-                            <value>char</value>
-                          </rightChild>
-                          <type>FUNCTION</type>
-                          <value>LETTER</value>
-                        </leftChild>
-                        <rightChild>
-                          <additionalChildren/>
-                          <type>STRING</type>
-                          <value>&lt;</value>
-                        </rightChild>
-                        <type>OPERATOR</type>
-                        <value>NOT_EQUAL</value>
-                      </rightChild>
-                      <type>OPERATOR</type>
-                      <value>LOGICAL_AND</value>
-                    </formula>
-                  </formulaList>
-                  <elseBranchBricks>
-                    <brick type="KeyEventBrick">
-                      <brickId>143f4b34-5334-4044-87d4-cfa6f4bd3cd6</brickId>
-                      <commentedOut>false</commentedOut>
-                      <formulaList>
-                        <formula category="VM_KEY_DOWN">
-                          <additionalChildren/>
-                          <type>NUMBER</type>
-                          <value>1</value>
-                        </formula>
-                        <formula category="VALUE">
-                          <additionalChildren/>
-                          <type>USER_VARIABLE</type>
-                          <value>char</value>
-                        </formula>
-                      </formulaList>
-                    </brick>
-                    <brick type="WaitBrick">
-                      <brickId>6ad5a764-8d1a-4ea3-ae8a-1ab9241ff406</brickId>
-                      <commentedOut>false</commentedOut>
-                      <formulaList>
-                        <formula category="TIME_TO_WAIT_IN_SECONDS">
-                          <additionalChildren/>
-                          <type>NUMBER</type>
-                          <value>0.05</value>
-                        </formula>
-                      </formulaList>
-                    </brick>
-                    <brick type="KeyEventBrick">
-                      <brickId>81bbe5e3-3603-4995-8f74-51ae94665cb1</brickId>
-                      <commentedOut>false</commentedOut>
-                      <formulaList>
-                        <formula category="VM_KEY_DOWN">
-                          <additionalChildren/>
-                          <type>NUMBER</type>
-                          <value>0</value>
-                        </formula>
-                        <formula category="VALUE">
-                          <additionalChildren/>
-                          <type>USER_VARIABLE</type>
-                          <value>char</value>
-                        </formula>
-                      </formulaList>
-                    </brick>
-                  </elseBranchBricks>
-                  <ifBranchBricks>
-                    <brick type="SetVariableBrick">
-                      <brickId>15a22ff5-8efe-4890-bade-38437d5ec54f</brickId>
-                      <commentedOut>false</commentedOut>
-                      <formulaList>
-                        <formula category="VARIABLE">
-                          <additionalChildren/>
-                          <type>NUMBER</type>
-                          <value>1.0</value>
-                        </formula>
-                      </formulaList>
-                      <userVariable type="UserVariable" serialization="custom">
-                        <userVariable>
-                          <default>
-                            <initialIndex>-1</initialIndex>
-                            <deviceValueKey>2c3818c0-d2f9-4294-85fc-9b4e1da91cd1</deviceValueKey>
-                            <name>l</name>
-                          </default>
-                        </userVariable>
-                      </userVariable>
-                    </brick>
-                    <brick type="RepeatBrick">
-                      <brickId>989cc0f9-ccb1-4dd7-bc84-40780d86c6d2</brickId>
-                      <commentedOut>false</commentedOut>
-                      <formulaList>
-                        <formula category="TIMES_TO_REPEAT">
-                          <additionalChildren/>
-                          <leftChild>
-                            <additionalChildren/>
-                            <type>USER_VARIABLE</type>
-                            <value>char</value>
-                          </leftChild>
-                          <type>FUNCTION</type>
-                          <value>LENGTH</value>
-                        </formula>
-                      </formulaList>
-                      <loopBricks>
-                        <brick type="KeyEventBrick">
-                          <brickId>0ef19a92-0c06-4806-bf53-1ca9debe2379</brickId>
-                          <commentedOut>false</commentedOut>
-                          <formulaList>
-                            <formula category="VM_KEY_DOWN">
-                              <additionalChildren/>
-                              <type>NUMBER</type>
-                              <value>1</value>
-                            </formula>
-                            <formula category="VALUE">
-                              <additionalChildren/>
-                              <leftChild>
-                                <additionalChildren/>
-                                <type>USER_VARIABLE</type>
-                                <value>l</value>
-                              </leftChild>
-                              <rightChild>
-                                <additionalChildren/>
-                                <type>USER_VARIABLE</type>
-                                <value>char</value>
-                              </rightChild>
-                              <type>FUNCTION</type>
-                              <value>LETTER</value>
-                            </formula>
-                          </formulaList>
-                        </brick>
-                        <brick type="WaitBrick">
-                          <brickId>c4f44754-e9d7-42c2-822d-5cf429a509c6</brickId>
-                          <commentedOut>false</commentedOut>
-                          <formulaList>
-                            <formula category="TIME_TO_WAIT_IN_SECONDS">
-                              <additionalChildren/>
-                              <type>NUMBER</type>
-                              <value>0.05</value>
-                            </formula>
-                          </formulaList>
-                        </brick>
-                        <brick type="KeyEventBrick">
-                          <brickId>bec24c4c-63c8-429b-964a-436213545d2d</brickId>
-                          <commentedOut>false</commentedOut>
-                          <formulaList>
-                            <formula category="VM_KEY_DOWN">
-                              <additionalChildren/>
-                              <type>NUMBER</type>
-                              <value>0</value>
-                            </formula>
-                            <formula category="VALUE">
-                              <additionalChildren/>
-                              <leftChild>
-                                <additionalChildren/>
-                                <type>USER_VARIABLE</type>
-                                <value>l</value>
-                              </leftChild>
-                              <rightChild>
-                                <additionalChildren/>
-                                <type>USER_VARIABLE</type>
-                                <value>char</value>
-                              </rightChild>
-                              <type>FUNCTION</type>
-                              <value>LETTER</value>
-                            </formula>
-                          </formulaList>
-                        </brick>
-                        <brick type="SetVariableBrick">
-                          <brickId>a9d4e1ca-9da1-47e4-a288-8f57693c43b8</brickId>
-                          <commentedOut>false</commentedOut>
-                          <formulaList>
-                            <formula category="VARIABLE">
-                              <additionalChildren/>
-                              <leftChild>
-                                <additionalChildren/>
-                                <type>USER_VARIABLE</type>
-                                <value>l</value>
-                              </leftChild>
-                              <rightChild>
-                                <additionalChildren/>
-                                <type>NUMBER</type>
-                                <value>1</value>
-                              </rightChild>
-                              <type>OPERATOR</type>
-                              <value>PLUS</value>
-                            </formula>
-                          </formulaList>
-                          <userVariable reference="../../../../brick/userVariable"/>
-                        </brick>
-                      </loopBricks>
-                    </brick>
-                  </ifBranchBricks>
-                </brick>
-              </brickList>
-              <commentedOut>false</commentedOut>
-              <scriptId>6def368a-1514-4c7b-aa13-1077d8aaf454</scriptId>
-              <formulaMap>
-                <formula category="IF_CONDITION">
-                  <additionalChildren/>
-                  <leftChild>
-                    <additionalChildren/>
-                    <type>USER_VARIABLE</type>
-                    <value>text</value>
-                  </leftChild>
-                  <rightChild>
-                    <additionalChildren/>
-                    <type>STRING</type>
-                    <value>
-</value>
-                  </rightChild>
-                  <type>FUNCTION</type>
-                  <value>CONTAINS_STR</value>
-                </formula>
-              </formulaMap>
-            </script>
           </scriptList>
           <nfcTagList/>
           <userVariables>
@@ -4886,15 +3723,15 @@
                   <brickId>9ff6e74b-8d4e-4bbd-87b0-bb134e44b209</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="Y_POSITION">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>722</value>
-                    </formula>
                     <formula category="X_POSITION">
                       <additionalChildren/>
                       <type>NUMBER</type>
                       <value>1008</value>
+                    </formula>
+                    <formula category="Y_POSITION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>722</value>
                     </formula>
                   </formulaList>
                 </brick>
