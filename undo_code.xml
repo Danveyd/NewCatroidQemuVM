@@ -92,7 +92,7 @@
                     <formula category="VARIABLE">
                       <additionalChildren/>
                       <type>STRING</type>
-                      <value>xz</value>
+                      <value></value>
                     </formula>
                   </formulaList>
                   <userVariable type="UserVariable" serialization="custom">
