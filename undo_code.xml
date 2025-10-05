@@ -2742,7 +2742,7 @@
                       <userVariable type="UserVariable" serialization="custom">
                         <userVariable>
                           <default>
-                            <initialIndex>-1</initialIndex>
+                            <initialIndex>0</initialIndex>
                             <deviceValueKey>2c3818c0-d2f9-4294-85fc-9b4e1da91cd1</deviceValueKey>
                             <name>l</name>
                           </default>
